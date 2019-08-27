@@ -32,21 +32,15 @@ export const availableMethods = [
   'quadraticCurveTo',
   'linearGradient',
   'radialGradient',
+  'closePath',
+  'transform',
+  'fillAndStroke',
+  '_registeredFonts',
 ];
 
 const painter = function(instance) {
-  const p = availableMethods.reduce(
-    (acc, prop) => ({
-      ...acc,
-      [prop]: (...args) => {
-        instance[prop](...args);
-        return p;
-      },
-    }),
-    {},
-  );
-
-  return p;
+  // just pass through...
+  return instance;
 };
 
 export default painter;
