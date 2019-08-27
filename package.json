@@ -1,10 +1,10 @@
 {
-  "name": "react-pdf-kit",
+  "name": "@conarrative/react-pdf",
   "version": "1.6.4",
   "license": "MIT",
   "author": "Mike Gai <mike@conarrative.com>",
-  "homepage": "https://github.com/CoNarrative/react-pdf-kit#readme",
-  "repository": "git@github.com:CoNarrative/react-pdf-kit.git",
+  "homepage": "https://github.com/CoNarrative/react-pdf#readme",
+  "repository": "git@github.com:CoNarrative/react-pdf.git",
   "main": "dist/react-pdf.cjs.js",
   "module": "dist/react-pdf.es.js",
   "browser": {
